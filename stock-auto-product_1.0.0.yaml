@@ -12,12 +12,9 @@ plans:
     title: Default Plan
     description: Default Plan
     approval: false
-    rate-limits:
-      default:
-        value: 100/hour
-        hard-limit: false
-    apis:
-      Stock: {}
+    rate-limit:
+      value: unlimited
+    apis: {}
 visibility:
   view:
     enabled: true
