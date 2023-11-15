@@ -20,7 +20,7 @@ securityDefinitions:
 x-ibm-configuration:
   properties:
     target-url:
-      value: https://httpbin.org/anything/
+      value: https://httpbin.org/somethign/
       description: URL of the proxy policy
       encoded: false
   cors:
